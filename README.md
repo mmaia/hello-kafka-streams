@@ -1,3 +1,8 @@
+# Added to original forked project
+
+* docker-compose file that spins up kafka + zookeeper + kafka manager + portainer.
+* code comments to better understand the code.
+
 This is an equivalent of [hello-samza](https://samza.apache.org/startup/hello-samza/0.10/) project which transforms wikipedia irc channel events into wikipdia-raw topic and does some basic stateful aggregation of stats over this record stream. It uses only Apache Kafka components, namely Kafka Connect and Kafka Streams. 
 
 You can find a walk-through tutorial for this demo and more background about the APIs used in [this  post](http://www.confluent.io/blog/hello-world-kafka-connect-kafka-streams) at Confluent's blog. 
